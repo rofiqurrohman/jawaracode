@@ -118,9 +118,9 @@ nav.navbar.navbarku .navbar-nav a {
     width: 100%;
   }
 
-  #jumbotron .vertical-center {
+  /*#jumbotron .vertical-center {
     transform: translateY(90%);
-  }
+  }*/
 
   #jumbotron h1.display-4 {
     font-size: 40px;
