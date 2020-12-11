@@ -1,0 +1,184 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap");
+
+.bg-purple {
+  background-color: #25a3dc;
+  color: white;
+}
+
+.card {
+  box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.fa.fa-list-ul {
+  color: white;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+nav.navbar {
+  background-color: #25a3dc;
+  font-weight: 500;
+  transition: 0.7s;
+}
+
+nav.navbar.navbarku {
+  background-color: #ffffff;
+  font-weight: 500;
+  box-shadow: 0 7px 12px -3px rgba(0, 0, 0, 0.75);
+}
+
+nav.navbar .navbar-brand {
+  color: white;
+  font-weight: 900;
+}
+
+nav.navbar.navbarku .navbar-brand {
+  color: black;
+}
+
+nav.navbar .navbar-nav a:hover,
+nav.navbar .navbar-nav a {
+  color: white;
+  margin-right: 30px;
+}
+nav.navbar.navbarku .navbar-nav a:hover,
+nav.navbar.navbarku .navbar-nav a {
+  color: black;
+  margin-right: 30px;
+}
+
+#jumbotron {
+  min-height: 40vh;
+  color: white;
+}
+
+/* #jumbotron .vertical-center {
+  transform: translateY(30%);
+} */
+
+#tutorial {
+  background-color: #25a2dc4f;
+  color: black;
+  margin: 10px 0;
+  padding: 40px;
+}
+
+#tutorial i {
+  color: red;
+  font-size: 40px;
+}
+
+#tutorial .container {
+  margin-bottom: 20px;
+  width: 60vw;
+}
+
+#content a,
+#tutorial a {
+  text-decoration: none;
+  color: black;
+}
+
+#footer .footer-content {
+  color: black;
+  padding: 30px 0;
+  min-height: 30vh;
+}
+
+#footer ul li {
+  margin-left: -30px;
+  list-style: none;
+}
+
+#footer ul li a {
+  text-decoration: none;
+  color: rgb(49, 49, 49);
+}
+
+#footer .sosmed ul li {
+  display: inline;
+  margin-right: 40px;
+  font-size: 35px;
+}
+
+#footer .copyright {
+  /* background-color: rgba(193, 188, 199, 0.568); */
+  background-color: #25a3dc;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  #tutorial .container {
+    width: 100%;
+  }
+
+  #jumbotron .vertical-center {
+    transform: translateY(90%);
+  }
+
+  #jumbotron h1.display-4 {
+    font-size: 40px;
+  }
+  #jumbotron h1 {
+    font-size: 30px;
+  }
+}
+
+@media (max-width: 991px) {
+  nav.navbar {
+    background-color: #25a3dc;
+  }
+
+  #content .sidebar {
+    display: none;
+  }
+}
+
+/* =========Masuk kelas============= */
+
+#content {
+  margin: 10px 0 50px;
+  box-sizing: border-box;
+}
+
+#content .judul-page {
+  background: rgb(34, 193, 195);
+  background: linear-gradient(
+    204deg,
+    rgba(34, 193, 195, 1) 0%,
+    rgba(45, 112, 253, 1) 100%
+  );
+  color: white;
+  padding: 30px;
+  margin: 10px 0 30px 0;
+  border-radius: 10px;
+}
+
+#content .sidebar {
+  position: sticky;
+  top: 5em;
+}
+
+#content .sidebar #bar-fixed {
+  height: 80vh;
+  overflow: auto;
+}
+
+#content .sidebar .daftar-materi p {
+  border-bottom: 1px solid grey;
+}
+
+#content .sidebar .daftar-materi p:hover {
+  background-color: grey;
+}
+
+#content .materi-bar {
+  padding: 10px 30px;
+  box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
