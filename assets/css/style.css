@@ -123,29 +123,6 @@ nav.navbar .navbar-nav a.login {
   color: white;
 }
 
-@media (max-width: 768px) {
-  #tutorial .container {
-    width: 100%;
-  }
-
-  #jumbotron h1.display-4 {
-    font-size: 40px;
-  }
-  #jumbotron h1 {
-    font-size: 30px;
-  }
-}
-
-@media (max-width: 991px) {
-  nav.navbar {
-    background-color: #25a3dc;
-  }
-
-  #content .sidebar {
-    display: none;
-  }
-}
-
 /* =========Masuk kelas============= */
 
 #content {
@@ -164,6 +141,10 @@ nav.navbar .navbar-nav a.login {
   padding: 30px;
   margin: 10px 0 30px 0;
   border-radius: 10px;
+}
+
+#content .judul-page p {
+  font-size: 35px;
 }
 
 #content .sidebar {
@@ -187,4 +168,33 @@ nav.navbar .navbar-nav a.login {
 #content .materi-bar {
   padding: 10px 30px;
   box-shadow: 2px 3px 3px 0px rgba(0, 0, 0, 0.5);
+}
+
+/* =================Responsive============= */
+
+@media (max-width: 768px) {
+  #tutorial .container {
+    width: 100%;
+  }
+
+  #jumbotron h1.display-4 {
+    font-size: 40px;
+  }
+  #jumbotron h1 {
+    font-size: 30px;
+  }
+
+  #content .judul-page p {
+    font-size: 25px;
+  }
+}
+
+@media (max-width: 991px) {
+  nav.navbar {
+    background-color: #25a3dc;
+  }
+
+  #content .sidebar {
+    display: none;
+  }
 }
