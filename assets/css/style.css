@@ -42,6 +42,7 @@ nav.navbar.navbarku .navbar-brand {
   color: black;
 }
 
+nav.navbar.navbarku .navbar-nav a.login,
 nav.navbar .navbar-nav a:hover,
 nav.navbar .navbar-nav a {
   color: white;
@@ -53,14 +54,23 @@ nav.navbar.navbarku .navbar-nav a {
   margin-right: 30px;
 }
 
+nav.navbar .navbar-nav a.login {
+  background: rgb(11, 68, 150);
+  background: linear-gradient(
+    148deg,
+    rgba(11, 68, 150, 1) 0%,
+    rgba(39, 170, 225, 1) 59%
+  );
+  border-radius: 20px;
+  padding-left: 15px;
+  padding-right: 15px;
+  /* box-shadow: inset 0 0 5px #000000; */
+}
+
 #jumbotron {
   min-height: 40vh;
   color: white;
 }
-
-/* #jumbotron .vertical-center {
-  transform: translateY(30%);
-} */
 
 #tutorial {
   background-color: #25a2dc4f;
@@ -117,10 +127,6 @@ nav.navbar.navbarku .navbar-nav a {
   #tutorial .container {
     width: 100%;
   }
-
-  /*#jumbotron .vertical-center {
-    transform: translateY(90%);
-  }*/
 
   #jumbotron h1.display-4 {
     font-size: 40px;
