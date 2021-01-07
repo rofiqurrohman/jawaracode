@@ -28,6 +28,12 @@ html {
   margin-bottom: 10px;
 }
 
+img.img-thumb {
+  height: 200px;
+  width: 200px;
+  margin: 15px auto;
+}
+
 .animate-zoom {
   animation: animatezoom 0.6s
 }
@@ -313,10 +319,12 @@ footer .copyright {
 @media (max-width: 576px) {
   .card {
     margin: 0 70px;
+    width: 100%;
+    margin: auto;
   }
 
   #beranda #section3 h1.harga {
-    font-size: 30px;
+    font-size: 35px;
   }
 
   #beranda #section3 ul li {
