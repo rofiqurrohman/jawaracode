@@ -270,6 +270,10 @@ nav.navbar .navbar-nav a.login {
   color: #fff;
 }
 
+article#logreg {
+  width: 400px;
+}
+
 /* =======End Daftar/Login======== */
 
 
@@ -317,6 +321,10 @@ footer .copyright {
 
   #beranda #section3 ul li {
     line-height: 30px;
+  }
+
+  article#logreg {
+    width: 350px;
   }
 }
 
